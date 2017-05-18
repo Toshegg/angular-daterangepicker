@@ -98,7 +98,6 @@
           }
         });
         modelCtrl.$render = function() {
-          console.log('rendeeeer in daterangepicker');
           if (opts.singleDatePicker && modelCtrl.$modelValue) {
             _setStartDate(modelCtrl.$modelValue);
             _setEndDate(modelCtrl.$modelValue);
