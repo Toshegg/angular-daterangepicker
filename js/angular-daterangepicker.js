@@ -1,3 +1,4 @@
+// Angular daterangepicker fixed
 (function() {
   var picker;
 
